@@ -159,6 +159,7 @@
 		F4D283B51C785B66008980F8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Jing LENG";
 				TargetAttributes = {
@@ -413,6 +414,7 @@
 				F4D283E01C785B67008980F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F4D283E11C785B67008980F8 /* Build configuration list for PBXNativeTarget "stepUPTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +423,7 @@
 				F4D283E31C785B67008980F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
