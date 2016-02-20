@@ -1,14 +1,14 @@
 //
-//  SecondViewController.swift
-//  stepUP
+//  ViewController.swift
+//  ClearTableViewCell
 //
-//  Created by Jing LENG on 2/20/16.
-//  Copyright (c) 2016 Jing LENG. All rights reserved.
+//  Created by Allen on 16/1/17.
+//  Copyright © 2016年 Allen. All rights reserved.
 //
 
 import UIKit
 
-class SecondViewController: UIViewController {
+class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

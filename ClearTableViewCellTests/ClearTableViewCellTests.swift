@@ -1,15 +1,15 @@
 //
-//  stepUPTests.swift
-//  stepUPTests
+//  ClearTableViewCellTests.swift
+//  ClearTableViewCellTests
 //
-//  Created by Jing LENG on 2/20/16.
-//  Copyright (c) 2016 Jing LENG. All rights reserved.
+//  Created by Allen on 16/1/17.
+//  Copyright © 2016年 Allen. All rights reserved.
 //
 
-import UIKit
 import XCTest
+@testable import ClearTableViewCell
 
-class stepUPTests: XCTestCase {
+class ClearTableViewCellTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
@@ -23,12 +23,12 @@ class stepUPTests: XCTestCase {
     
     func testExample() {
         // This is an example of a functional test case.
-        XCTAssert(true, "Pass")
+        // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
     
     func testPerformanceExample() {
         // This is an example of a performance test case.
-        self.measureBlock() {
+        self.measureBlock {
             // Put the code you want to measure the time of here.
         }
     }
