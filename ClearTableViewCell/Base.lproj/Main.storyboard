@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="lhv-gv-g3X">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="lhv-gv-g3X">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
     </dependencies>
     <scenes>
         <!--Item-->
@@ -12,6 +12,7 @@
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="kHq-aC-GbH">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="sectionIndexColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="sectionIndexBackgroundColor" red="1" green="0.37119576760800554" blue="0.46219137886753547" alpha="1" colorSpace="calibratedRGB"/>
@@ -23,7 +24,9 @@
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="9XS-z5-AwB" id="iuU-I0-clC">
                                     <rect key="frame" x="0.0" y="0.0" width="600" height="89"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <animations/>
                                 </tableViewCellContentView>
+                                <animations/>
                                 <color key="backgroundColor" red="1" green="0.28010523422191214" blue="0.24684250868027535" alpha="1" colorSpace="calibratedRGB"/>
                             </tableViewCell>
                         </prototypes>
@@ -41,7 +44,7 @@
         <!--Item 2-->
         <scene sceneID="vJ4-ZU-Nu0">
             <objects>
-                <viewController id="PWA-Ni-0gP" sceneMemberID="viewController">
+                <viewController id="PWA-Ni-0gP" customClass="SettingsViewController" customModule="ClearTableViewCell" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="uO5-gE-09v"/>
                         <viewControllerLayoutGuide type="bottom" id="gkl-H0-Oj3"/>
@@ -49,9 +52,34 @@
                     <view key="view" contentMode="scaleToFill" id="7dx-kS-qyo">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3on-Tn-nKf">
+                                <rect key="frame" x="200" y="278" width="200" height="44"/>
+                                <animations/>
+                                <color key="backgroundColor" red="1" green="0.40423915379999997" blue="0.57840417909999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="BZN-iK-qD1"/>
+                                    <constraint firstAttribute="height" constant="44" id="rG3-OR-KuC"/>
+                                </constraints>
+                                <state key="normal" title="Logout">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="logoutPressed:" destination="PWA-Ni-0gP" eventType="touchUpInside" id="0Ue-QM-xtF"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="3on-Tn-nKf" firstAttribute="centerY" secondItem="7dx-kS-qyo" secondAttribute="centerY" id="L7Z-iL-Ls5"/>
+                            <constraint firstItem="3on-Tn-nKf" firstAttribute="centerX" secondItem="7dx-kS-qyo" secondAttribute="centerX" id="aYz-nO-p06"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item 2" id="O5x-by-QF1"/>
+                    <connections>
+                        <outlet property="logoutButton" destination="3on-Tn-nKf" id="QSL-9q-vlO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gZy-0B-tJH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -68,6 +96,7 @@
                     <view key="view" contentMode="scaleToFill" id="si9-2h-fOj">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item 1" id="tdH-ik-PPp"/>
@@ -83,6 +112,7 @@
                     <tabBar key="tabBar" contentMode="scaleToFill" id="sOh-Pv-K1U">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
@@ -93,7 +123,60 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Amp-lM-gpg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="204" y="619"/>
+            <point key="canvasLocation" x="268" y="211"/>
+        </scene>
+        <!--LoginViewController-->
+        <scene sceneID="JZS-Fb-FB5">
+            <objects>
+                <viewController storyboardIdentifier="LoginViewController" title="LoginViewController" id="msf-RH-I8H" customClass="LoginViewController" customModule="ClearTableViewCell" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pLj-5O-Rtw"/>
+                        <viewControllerLayoutGuide type="bottom" id="ejp-F0-ff5"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Hte-ul-Erg">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Login to use StepUp" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="elk-fp-Dfv">
+                                <rect key="frame" x="222" y="45" width="156" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="tr2-DF-sA3">
+                                <rect key="frame" x="200" y="278" width="200" height="44"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ySz-Fa-aQG" customClass="FBSDKLoginButton">
+                                        <rect key="frame" x="0.0" y="0.0" width="200" height="44"/>
+                                        <animations/>
+                                        <color key="backgroundColor" red="0.6746651785714286" green="0.65798547306042221" blue="0.64663433971773254" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="200" id="GDc-t0-tLC"/>
+                                            <constraint firstAttribute="height" constant="44" id="Mgd-my-bWW"/>
+                                        </constraints>
+                                        <state key="normal" title="Login">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <animations/>
+                            </stackView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" red="0.89343843005952384" green="0.66963353325389674" blue="0.42209296108896438" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="elk-fp-Dfv" firstAttribute="top" secondItem="pLj-5O-Rtw" secondAttribute="bottom" constant="25" id="GIa-1Z-M3Z"/>
+                            <constraint firstItem="elk-fp-Dfv" firstAttribute="centerX" secondItem="Hte-ul-Erg" secondAttribute="centerX" id="fq5-Cq-A6q"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="loginButton" destination="ySz-Fa-aQG" id="ceg-Va-Vnc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="auF-3L-sY1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="268" y="1055"/>
         </scene>
     </scenes>
 </document>

@@ -7,14 +7,36 @@
 //
 
 import UIKit
+import FBSDKLoginKit
 
 class ClearTableViewController: UITableViewController {
     
     var tableData = ["Ann 12000", "Frank 11000", "Jamie 10000", "Angela (you), 9999", "Holly 9000", "Andrew 8000", "Nick 3000"]
     
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        // If logged in
+        if let token = FBSDKAccessToken.currentAccessToken() {
+            
+            
+            
+        } else {
+            // Present login view
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            let loginVC = storyboard.instantiateViewControllerWithIdentifier("LoginViewController")
+            
+            loginVC.modalPresentationStyle = .FullScreen
+            loginVC.modalTransitionStyle = .CoverVertical
+            self.presentViewController(loginVC, animated: true, completion: nil)
+        }
+        
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
+    
 //        self.tableView.reloadData()
         
         UIApplication.sharedApplication().statusBarHidden = true
@@ -24,11 +46,14 @@ class ClearTableViewController: UITableViewController {
         self.tableView.tableFooterView = UIView(frame: CGRectZero)
         self.tableView.registerClass(TableViewCell.self, forCellReuseIdentifier: "tableCell")
         
+        
     }
     
     override func viewWillAppear(animated: Bool) {
         print("viewWillAppear called")
     }
+    
+    
     
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         return 1
