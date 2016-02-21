@@ -7,15 +7,41 @@
 //
 
 import UIKit
+import HealthKit
+
+
+enum ProfileViewControllerTableViewIndex : Int {
+    case Age = 0
+    case Height
+    case Weight
+}
+
+enum ProfileKeys : String {
+    case Age = "age"
+    case Height = "height"
+    case Weight = "weight"
+}
+
+
+
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
+    let healthStore = HKHealthStore()
+    
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        let rank: ClearTableViewController = ClearTableViewController(style: UITableViewStyle.Plain)
+        rank.healthStore = self.healthStore
+        
+        let dash: DashboardViewController = DashboardViewController()
+        dash.healthStore = self.healthStore
+        
         return true
     }
 
