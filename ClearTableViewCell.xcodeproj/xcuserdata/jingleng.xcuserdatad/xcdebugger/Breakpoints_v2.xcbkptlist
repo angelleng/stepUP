@@ -10,12 +10,170 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ClearTableViewCell/ClearTableViewController.swift"
-            timestampString = "477718693.040516"
+            timestampString = "477742313.641821"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "109"
-            endingLineNumber = "109"
-            landmarkName = "numberOfSectionsInTableView(_:)"
+            startingLineNumber = "119"
+            endingLineNumber = "119"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ClearTableViewCell/LoginViewController.swift"
+            timestampString = "477733610.217127"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "LoginViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ClearTableViewCell.LoginViewController.loginButton.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.FBSDKLoginButton&gt;"
+                  moduleName = "ClearTableViewCell"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jingleng/Documents/GoBlue/W16/stepUP/ClearTableViewCell/LoginViewController.swift"
+                  timestampString = "477741990.152985"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ClearTableViewCell.LoginViewController.loginButton.materializeForSet : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.FBSDKLoginButton&gt;"
+                  moduleName = "ClearTableViewCell"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jingleng/Documents/GoBlue/W16/stepUP/ClearTableViewCell/LoginViewController.swift"
+                  timestampString = "477741990.153355"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ClearTableViewCell.LoginViewController.init (ClearTableViewCell.LoginViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; ClearTableViewCell.LoginViewController"
+                  moduleName = "ClearTableViewCell"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jingleng/Documents/GoBlue/W16/stepUP/ClearTableViewCell/LoginViewController.swift"
+                  timestampString = "477741990.153682"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "70">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ClearTableViewCell.LoginViewController.init (ClearTableViewCell.LoginViewController.Type)(coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;ClearTableViewCell.LoginViewController&gt;"
+                  moduleName = "ClearTableViewCell"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jingleng/Documents/GoBlue/W16/stepUP/ClearTableViewCell/LoginViewController.swift"
+                  timestampString = "477741990.153965"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ClearTableViewCell/ClearTableViewController.swift"
+            timestampString = "477734391.139076"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "viewDidAppear(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ClearTableViewCell/ClearTableViewController.swift"
+            timestampString = "477742313.641821"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "112"
+            endingLineNumber = "112"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ClearTableViewCell/ClearTableViewController.swift"
+            timestampString = "477740650.197194"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "viewDidAppear(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ClearTableViewCell/LoginViewController.swift"
+            timestampString = "477743046.997911"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "LoginViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "File.swift"
+            timestampString = "477748451.917069"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "recentSteps(_:)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

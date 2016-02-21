@@ -16,6 +16,11 @@
 		9FB163CC1C4B69F7004B3E4E /* ClearTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB163CB1C4B69F7004B3E4E /* ClearTableViewController.swift */; };
 		9FB163CE1C4B93F7004B3E4E /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB163CD1C4B93F7004B3E4E /* TableViewCell.swift */; };
 		F47E07021C79141A00A77DFE /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47E07011C79141A00A77DFE /* DashboardViewController.swift */; };
+		F4BED79B1C799E0200A22B53 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4BED79A1C799E0200A22B53 /* FBSDKCoreKit.framework */; };
+		F4BED79D1C799E1100A22B53 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4BED79C1C799E1100A22B53 /* FBSDKLoginKit.framework */; };
+		F4BED7A01C799FE500A22B53 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BED79E1C799FE500A22B53 /* LoginViewController.swift */; };
+		F4BED7A11C799FE500A22B53 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BED79F1C799FE500A22B53 /* SettingsViewController.swift */; };
+		F4CD70701C79E4B300126AE8 /* HKHealthStoreExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CD706F1C79E4B300126AE8 /* HKHealthStoreExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,12 @@
 		9FB163CB1C4B69F7004B3E4E /* ClearTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClearTableViewController.swift; sourceTree = "<group>"; };
 		9FB163CD1C4B93F7004B3E4E /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		F47E07011C79141A00A77DFE /* DashboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		F4BED79A1C799E0200A22B53 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = ../../../FacebookSDK/FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		F4BED79C1C799E1100A22B53 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = ../../../FacebookSDK/FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		F4BED79E1C799FE500A22B53 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F4BED79F1C799FE500A22B53 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		F4BED7A41C79D6F500A22B53 /* ClearTableViewCell.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ClearTableViewCell.entitlements; sourceTree = "<group>"; };
+		F4CD706F1C79E4B300126AE8 /* HKHealthStoreExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKHealthStoreExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +69,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4BED79D1C799E1100A22B53 /* FBSDKLoginKit.framework in Frameworks */,
+				F4BED79B1C799E0200A22B53 /* FBSDKCoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +94,7 @@
 		9FB163911C4B68F1004B3E4E = {
 			isa = PBXGroup;
 			children = (
+				F4BED7951C79995700A22B53 /* Frameworks */,
 				9FB1639C1C4B68F1004B3E4E /* ClearTableViewCell */,
 				9FB163B11C4B68F1004B3E4E /* ClearTableViewCellTests */,
 				9FB163BC1C4B68F1004B3E4E /* ClearTableViewCellUITests */,
@@ -101,10 +115,14 @@
 		9FB1639C1C4B68F1004B3E4E /* ClearTableViewCell */ = {
 			isa = PBXGroup;
 			children = (
+				F4BED7A41C79D6F500A22B53 /* ClearTableViewCell.entitlements */,
 				9FB1639D1C4B68F1004B3E4E /* AppDelegate.swift */,
 				9FB163A11C4B68F1004B3E4E /* Main.storyboard */,
 				F47E07011C79141A00A77DFE /* DashboardViewController.swift */,
 				9FB163CB1C4B69F7004B3E4E /* ClearTableViewController.swift */,
+				F4CD706F1C79E4B300126AE8 /* HKHealthStoreExtension.swift */,
+				F4BED79E1C799FE500A22B53 /* LoginViewController.swift */,
+				F4BED79F1C799FE500A22B53 /* SettingsViewController.swift */,
 				9FB163CD1C4B93F7004B3E4E /* TableViewCell.swift */,
 				9FB163A41C4B68F1004B3E4E /* Assets.xcassets */,
 				9FB163A61C4B68F1004B3E4E /* LaunchScreen.storyboard */,
@@ -129,6 +147,15 @@
 				9FB163BF1C4B68F1004B3E4E /* Info.plist */,
 			);
 			path = ClearTableViewCellUITests;
+			sourceTree = "<group>";
+		};
+		F4BED7951C79995700A22B53 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4BED79C1C799E1100A22B53 /* FBSDKLoginKit.framework */,
+				F4BED79A1C799E0200A22B53 /* FBSDKCoreKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +226,12 @@
 				TargetAttributes = {
 					9FB163991C4B68F1004B3E4E = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = KWD88Q3AAZ;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 0;
+							};
+						};
 					};
 					9FB163AD1C4B68F1004B3E4E = {
 						CreatedOnToolsVersion = 7.2;
@@ -262,10 +295,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4CD70701C79E4B300126AE8 /* HKHealthStoreExtension.swift in Sources */,
 				9FB163CE1C4B93F7004B3E4E /* TableViewCell.swift in Sources */,
 				F47E07021C79141A00A77DFE /* DashboardViewController.swift in Sources */,
 				9FB1639E1C4B68F1004B3E4E /* AppDelegate.swift in Sources */,
+				F4BED7A01C799FE500A22B53 /* LoginViewController.swift in Sources */,
 				9FB163CC1C4B69F7004B3E4E /* ClearTableViewController.swift in Sources */,
+				F4BED7A11C799FE500A22B53 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,10 +441,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					/Users/jingleng/Documents/FacebookSDK,
+				);
 				INFOPLIST_FILE = ClearTableViewCell/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = me.appkitchen.ClearTableViewCell;
+				PRODUCT_BUNDLE_IDENTIFIER = me.appkitchen.stepup.jl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -416,10 +462,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					/Users/jingleng/Documents/FacebookSDK,
+				);
 				INFOPLIST_FILE = ClearTableViewCell/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = me.appkitchen.ClearTableViewCell;
+				PRODUCT_BUNDLE_IDENTIFIER = me.appkitchen.stepup.jl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
