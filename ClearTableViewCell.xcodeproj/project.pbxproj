@@ -15,10 +15,14 @@
 		9FB163BE1C4B68F1004B3E4E /* ClearTableViewCellUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB163BD1C4B68F1004B3E4E /* ClearTableViewCellUITests.swift */; };
 		9FB163CC1C4B69F7004B3E4E /* ClearTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB163CB1C4B69F7004B3E4E /* ClearTableViewController.swift */; };
 		9FB163CE1C4B93F7004B3E4E /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB163CD1C4B93F7004B3E4E /* TableViewCell.swift */; };
+<<<<<<< HEAD
 		BD2297521C79063300A0D327 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD2297511C79063300A0D327 /* FBSDKCoreKit.framework */; };
 		BD2297541C79080E00A0D327 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD2297531C79080E00A0D327 /* FBSDKLoginKit.framework */; };
 		BD2297561C790A6A00A0D327 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2297551C790A6A00A0D327 /* LoginViewController.swift */; };
 		BD2297581C79559200A0D327 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2297571C79559200A0D327 /* SettingsViewController.swift */; };
+=======
+		F47E07021C79141A00A77DFE /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47E07011C79141A00A77DFE /* DashboardViewController.swift */; };
+>>>>>>> 2f27cccc03b74a926a6cbcfc7444a3f1069c7bc2
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,10 +57,14 @@
 		9FB163BF1C4B68F1004B3E4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9FB163CB1C4B69F7004B3E4E /* ClearTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClearTableViewController.swift; sourceTree = "<group>"; };
 		9FB163CD1C4B93F7004B3E4E /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		BD2297511C79063300A0D327 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = ../../Documents/FacebookSDK/FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		BD2297531C79080E00A0D327 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = ../../Documents/FacebookSDK/FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		BD2297551C790A6A00A0D327 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		BD2297571C79559200A0D327 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+=======
+		F47E07011C79141A00A77DFE /* DashboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+>>>>>>> 2f27cccc03b74a926a6cbcfc7444a3f1069c7bc2
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +122,7 @@
 				BD2297551C790A6A00A0D327 /* LoginViewController.swift */,
 				9FB1639D1C4B68F1004B3E4E /* AppDelegate.swift */,
 				9FB163A11C4B68F1004B3E4E /* Main.storyboard */,
+				F47E07011C79141A00A77DFE /* DashboardViewController.swift */,
 				9FB163CB1C4B69F7004B3E4E /* ClearTableViewController.swift */,
 				9FB163CD1C4B93F7004B3E4E /* TableViewCell.swift */,
 				9FB163A41C4B68F1004B3E4E /* Assets.xcassets */,
@@ -273,8 +282,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
 				BD2297561C790A6A00A0D327 /* LoginViewController.swift in Sources */,
+=======
+>>>>>>> 2f27cccc03b74a926a6cbcfc7444a3f1069c7bc2
 				9FB163CE1C4B93F7004B3E4E /* TableViewCell.swift in Sources */,
+				F47E07021C79141A00A77DFE /* DashboardViewController.swift in Sources */,
 				9FB1639E1C4B68F1004B3E4E /* AppDelegate.swift in Sources */,
 				BD2297581C79559200A0D327 /* SettingsViewController.swift in Sources */,
 				9FB163CC1C4B69F7004B3E4E /* ClearTableViewController.swift in Sources */,
